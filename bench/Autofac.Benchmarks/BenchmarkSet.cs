@@ -11,6 +11,7 @@ public static class BenchmarkSet
     {
         typeof(ChildScopeResolveBenchmark),
         typeof(ContainerBuildBenchmark),
+        typeof(ContainerBuildInheritedMembersBenchmark),
         typeof(ConcurrencyBenchmark),
         typeof(ConcurrencyNestedScopeBenchmark),
         typeof(KeyedGenericBenchmark),
